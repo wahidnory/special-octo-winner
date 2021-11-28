@@ -2,7 +2,7 @@ import {ShopifyServerProvider, DefaultRoutes} from '@shopify/hydrogen';
 import {Switch} from 'react-router-dom';
 import {Suspense} from 'react';
 
-import shopifyConfig from '../shopify.config';
+import shopifyConfig from '../shopify.prod.config';
 
 import DefaultSeo from './components/DefaultSeo.server';
 import NotFound from './components/NotFound.server';
