@@ -1,6 +1,6 @@
 export default {
   locale: 'nl-nl',
-  storeDomain: process.env.storefrontDomain,
-  storefrontToken: process.env.storefrontToken,
+  storeDomain: process.env.STOREFRONT_DOMAIN,
+  storefrontToken: process.env.STOREFRONT_TOKEN,
   graphqlApiVersion: 'unstable',
 };
